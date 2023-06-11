@@ -1,0 +1,26 @@
+CHEATSHEET GIT GITHUB
+
+Para clonar un repositorio existente:
+$ git clone ssh://usuario@domain.com/repo.git
+
+Para crear un repositorio local:
+$ git init
+
+Para crear una nueva rama:
+$ git branch nombre-rama
+
+Para moverse a otra rama:
+$ git checkout nombre-rama
+
+Para traer los archivos actualizados de un repositorio:
+$ git pull origin nombre-rama
+
+Para agregar archivos modificados:
+$ git add .
+$ git add dirección
+
+Para confirmar los archivos modificados:
+$ git commit -m "mensaje"
+
+Para subir los archivos confirmados al repositorio:
+$ git push origin nombre-rama 
